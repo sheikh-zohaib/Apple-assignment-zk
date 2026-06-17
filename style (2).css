@@ -1,0 +1,529 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+   margin: 0;
+   padding: 0;
+ 
+}
+.main-container{
+   height: 100vh;
+   width: 100vw;
+   overflow-x:hidden;
+   
+}
+
+header{
+   height: 50px;
+   width: 100%;
+   background-color: white;
+   color:black;
+   margin: 0;
+   padding: 0;
+   position: fixed;
+   margin-right: 200px; 
+
+}
+
+.menu{
+   height:40px;
+   width: 100%;
+   display: flex;
+   flex-direction:row;
+   align-items:center;
+   justify-content: center;
+}
+li ,a {
+   text-decoration: none;
+   list-style: none;
+   color:black; 
+}
+.imag-1{
+   height: 20px;
+   width: 20px;
+}
+
+.list{
+   display: flex;
+   flex-direction: row;
+   flex-grow: 20;
+   justify-content: space-evenly;
+
+}
+.card-apple{
+   height: 800px;
+   width: 100%;
+   background-color: black;
+   background-image: url("iphone.jpg");
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction:column;
+   justify-content: start;
+   align-items: center;
+   text-align: center;
+   
+
+}
+.heading{
+   height: 20px;
+   width: 100%;
+   font-size:50px;
+}
+
+.headings{
+  font-size: larger;
+}
+.now{
+   height: 40px;
+   background-color: rgb(2, 81, 253);
+   color:white;
+
+
+}
+.nows{
+   height: 40px;
+   background-color: white;
+   color:rgb(2, 81, 253);
+
+   
+
+}
+.nows:hover{
+  background-color:rgb(2, 81, 253);
+  color:white ;
+}
+.button-nows{
+   display: flex;
+   justify-content: space-evenly;
+   border-style:hidden;
+   flex-direction: row;
+   width: 350px;
+   
+
+}
+button{
+   border-radius: 20px;
+   height: 30px;
+   width: 150px;
+   background-color:rgb(2, 81, 253); 
+   color: white;
+}
+
+.card-box{
+   height: 600px;
+   width: 100%;
+   background-image: url("father day.jpg");
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction:column;
+   justify-content: start;
+   align-items: center;
+   text-align: center;
+
+}
+.botton-to{
+   height: 100px;
+   width: 40px;
+   text-align: center;
+
+}
+.card-laptop{
+   height: 600px;
+   width: 100%;
+   background-image: url("laptop.jpg");
+   background-size: cover;
+   background-position: center;
+    display: flex;
+   flex-direction:column;
+   justify-content: start;
+   align-items: center;
+   text-align: center;
+
+}
+.card-ipad{
+   height: 700px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   
+
+}
+.child-macbook{
+   height: 90%;
+   width: 45%;
+   background-image: url("ipad.jpg");
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction: row;
+
+}
+.child-ipad{
+   height: 90%;
+   width: 45%;
+   background-image: url("macbook.jpg");
+   background-size: cover;
+   background-position: center;
+    display: flex;
+   flex-direction: row;
+
+}
+.box-one{
+   height: 200px;
+   width: 100%;
+   display: flex;
+   flex-direction:column;
+   justify-content: start;
+   align-items: center;
+   text-align: center;
+
+}
+.buy{
+   width: 100px;
+   border-color: rgb(2, 81, 253);
+   border: hidden;
+
+}
+.sale{
+   width: 50px;
+   background-color: transparent;
+   border-color:rgb(2, 81, 253) ;
+   color:rgb(2, 81, 253);
+
+}
+.card-two{
+   height: 800px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.child-iphone{
+   height: 90%;
+   width: 45%;
+   background-image: url("g.jpg");
+   background-size:cover ;
+   background-position: center;
+    display: flex;
+   flex-direction: row;
+   color:white;
+}
+.child-watch{
+   height: 90%;
+   width: 45%;
+   background-image: url("watch i.jpg");
+   background-size: cover;
+   background-position: center;
+    display: flex;
+   flex-direction: row;
+}
+.picture{
+   height: 25px;
+   width: 25px;
+}
+.card-Three{
+   height: 700px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.child-airpods{
+   height: 90%;
+   width: 45%;
+   background-image:url("phones.jpg") ;
+   background-size: cover;
+   background-position: center;
+    display: flex;
+   flex-direction: row;
+}
+.child-mobile{
+   height: 90%;
+   width: 45%;
+   background-image: url("card.jpg");
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction: row;
+}
+.animeation{
+   height: 500px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+   
+}
+.apple-Tv{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: row;
+   flex-grow:100%;
+}
+.child-1{
+   height: 90%;
+   width: 15%;
+   background-image: url("move-2.jpg");
+   background-position: center;
+   background-size:cover;
+}
+.child-3{
+   height: 90%;
+    width: 15%;
+    background-image: url("photo-boll.jpg");
+    background-position: center;
+    background-size:cover;
+}
+.child-2{
+   height: 90%;
+   width: 65%;
+   background-image: url("horrer.jpg");
+   background-position: center;
+    background-size:cover;
+   
+}
+
+
+.h10{
+   height: 100px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: transparent;
+}
+.mobile{
+   height: 600px;
+   width: 100%;
+   background-color: white;
+   border:2px  solid white ;
+   font-size: clamp(20px,5%,30px);
+}
+
+
+.mobile-section{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .mobile-section{
+        display: block;
+    }
+    .card-child{
+      margin-left: 30px;
+    }
+}
+
+
+.big-paragraph{
+    color: rgb(97, 96, 96);
+    font-size: 0.9em;
+    width: 90%;
+}
+.bigpara{
+}
+/* list-parent */
+.P1{
+    display: flex;
+   justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+p{
+    color: rgb(97, 96, 96);
+    font-size: 0.9em;
+}
+b{
+    color: black;
+}
+.second-last-paragraph1, .last-paragraph1{
+
+    width: 100%;
+    min-width: 1400px;
+}
+.second-last-paragraph1{
+    margin-bottom: 40px;
+}
+.last-paragraph1{
+    height: 80px;
+    margin-top: 10px;
+}
+.last-span2{
+    margin-left: 150px;
+}
+.last-span1{
+    margin-left: 50px;
+}
+.icons1{
+    display: hide;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .list{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card-ipad,
+    .card-two,
+    .card-Three{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .child-macbook,
+    .child-ipad,
+    .child-iphone,
+    .child-watch,
+    .child-airpods,
+    .child-mobile{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .heading{
+        font-size: 32px;
+    }
+
+    .button{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .apple-Tv{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child-1,
+    .child-2,
+    .child-3{
+        width: 95%;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+
+    .P1{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .second-last-paragraph1,
+    .last-paragraph1{
+        min-width: 100%;
+        width: 95%;
+    }
+
+    .main-container{
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 768px) {
+  
+
+  .iphone-section {
+    flex-direction: column !important;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .iphone-section img {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+  
+
+  .product-grid {
+    grid-template-columns: 1fr !important; 
+    gap: 20px;
+  }
+  
+
+  h1 {
+    font-size: 32px !important; 
+  }
+  p {
+    font-size: 16px !important;
+    padding: 0 20px;
+  }
+  
+
+  .entertainment-banner {
+    height: 200px !important; 
+    background-size: cover !important;
+  }
+
+
+ .list{
+        display: none;
+    }
+
+ .icon{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .card-ipad,
+    .card-two,
+    .card-Three{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .child-macbook,
+    .child-ipad,
+    .child-iphone,
+    .child-watch,
+    .child-airpods,
+    .child-mobile{
+        width: 100%;
+        height: 500px;
+        margin-bottom: 15px;
+    }
+
+    .heading{
+        font-size: 35px;
+    }
+
+    .P1{
+        display: none;
+    }
+
+    .input-part{
+        display: block;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .main-container{
+        width: 100%;
+    }
+   }
+
